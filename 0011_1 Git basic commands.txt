@@ -1,0 +1,12 @@
+
+$ git - it all starts with "git"
+
+$ git config - configure the tooling
+
+$ git intit - initialize the git local repo -> create empty repository .git
+
+$ git clone - download project from remote -> clone it into local directory
+
+$ git add - prepare a file(s) -> add to staging area (includes file(s) to index = make ready for later commit)
+
+$ git commit - commit a file to the repo 

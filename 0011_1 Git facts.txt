@@ -1,0 +1,20 @@
+Git = resource control system, distributed.
+GitHub = hosting service using Git.
+Pushing = sending code to the central repository.
+Pulling = downloading changes to own local machine.
+
+3 States of Git (for files) on local machine:
+
+Committed - stored in the local DB
+Modified - file changed, not committed to local DB yet
+Staged - modified file marked to be in next commit snapshot
+
+3 Areas of Git:
+
+Working directory - created, edited, deleted
+Staging area - changes staged before commited(files waiting to be committed) 
+.git repo - after performed commit changes stored in local git repository managed by git only. 
+
+Adding a Remote:
+Remote repo GitHub
+

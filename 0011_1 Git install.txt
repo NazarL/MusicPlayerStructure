@@ -1,0 +1,21 @@
+
+git config --global user.name "Nazar Lebedenko"
+
+// if no feedback = Ok
+
+git config --global user.email "nazar.lebedenko@gmail.com"
+
+//to check
+git config --edit --global
+
+//to launch Notepad
+Notepad
+
+//to make it core editor
+add path to Notepad++ in Windows, re-open GitBash 
+-multiInst to always instantiate new version of notepad++
+-nosession to always create blank session
+
+git config core.editor "notepad++ -multiInst -nosession"
+
+--------------------------------------------------------------------
