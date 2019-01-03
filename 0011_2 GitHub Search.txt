@@ -1,0 +1,8 @@
+Search phrases examples:
+
+dotnet stars:>1000
+dotnet stars:10..50
+dotnet NOT "hello world"
+
+Basic search is on the top left corner of the web site.
+Andvanced search link is below of left side menu filter of regular search results.

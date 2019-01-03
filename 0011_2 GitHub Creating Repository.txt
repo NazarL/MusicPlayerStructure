@@ -1,0 +1,63 @@
+
+repository name should be unique within my account, not across Git
+gitignore - file contains list of extensions and files that shouldn't be commited(like packages, dlls)
+licence -  can ask GitHub generate it
+
+After repo created the following threee options are available:
+
+…or create a new repository on the command line
+
+echo "# MusicPlayerStructure" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/NazarL/MusicPlayerStructure.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/NazarL/MusicPlayerStructure.git
+git push -u origin master
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+-------------
+//I copy 
+git remote add origin https://github.com/NazarL/MusicPlayerStructure.git
+
+//and I go to the local repository
+git status
+On branch master
+nothing to commit, working tree clean
+
+//Now link local repository with GitHub repository
+//check if there is remote configured
+
+git remote -v
+
+//now paste copied command
+//origin - name for my remote reference
+git remote add origin https://github.com/NazarL/MusicPlayerStructure.git
+
+//now check if there is remote configured
+git remote -v
+origin  https://github.com/NazarL/MusicPlayerStructure.git (fetch)
+origin  https://github.com/NazarL/MusicPlayerStructure.git (push)
+//it means local and global repositories were linked together but no files pushed to remote from local
+
+//copy second line
+//push - to push local content to remote reference
+git push -u origin master
+
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.37 KiB | 351.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/NazarL/MusicPlayerStructure.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+

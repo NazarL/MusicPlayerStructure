@@ -1,0 +1,20 @@
+
+GitHub is a hosting service for Git
+
+Pull requests - developers can request their changes pulled into another branch
+Issues and Project management
+Documentation
+
+
+GitHub's main features: 
+
+Notification
+Teams
+Gist - sharing a single file or part of a file
+Integrations
+
+
+GitHub repository = folder
+
+GitHub is the Remote:
+Working directory -> Staging area -> .git repo -> GitHub repo
